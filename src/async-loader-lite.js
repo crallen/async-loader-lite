@@ -7,7 +7,7 @@
 	if(w.acOnReady) {
 		e = w.acOnReady;
 		w.acReadyEvents.push(e);
-		delete w.acOnReady;
+		w.acOnReady = undefined;
 	}
 
 	if(w.postScriptLoad) { 
